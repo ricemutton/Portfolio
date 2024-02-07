@@ -1,0 +1,27 @@
+
+
+h1{
+    color:#37123C;
+    text-decoration: underline;
+}
+
+main{
+    background-color: #A99F96;
+}
+
+p{
+    color: #37123C;
+}
+
+button{
+    background-color: green;
+    color: red
+}
+
+.random{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
