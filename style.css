@@ -1,27 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
+.header{ 
+    text-align: center;
+    background-color:#2C3333;
+    color: #E7F6F2;
+    height: 40px;
+
+}
 
 h1{
-    color:#37123C;
-    text-decoration: underline;
+    height: 40px;
 }
 
-main{
-    background-color: #A99F96;
-}
 
-p{
-    color: #37123C;
-}
-
-button{
-    background-color: green;
-    color: red
-}
-
-.random{
+.navigation_bar{
+    background-color:#3d5b63;
     text-align: center;
+    font-family: 'Georgia';
+    padding:10px;
 }
 
-a{
-    text-decoration: none;
+#navbar_item{
+    color: #f0faf7
 }
+main{
+    background-color: #f0faf7;   
+}
+.upperbody{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.lowerbody{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.aboutme{
+    background-color: whitesmoke;
+    padding:10px;
+}
+
+.collegename{
+    color: black;
+}
+
+.highlight{
+    background-color:#2C3333
+}
+a{
+    color: #E7F6F2;
+}
+#highlight_list{
+    background-color: #3d5b63;
+    color: #E7F6F2; 
+    padding: 5px; 
+}
+
+#year{
+    padding:5px;
+}
+footer{
+    text-align: center;
+    font-size: x-small;
+}
+
+
+
+
+
+
+
+
+
+
