@@ -1,20 +1,19 @@
 *{
     padding: 0;
     margin: 0;
-    
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* for white links */
+#exception_links{
+    color: #f0faf7;
 }
 
 .header{ 
     text-align: center;
     background-color:#2C3333;
     color: #E7F6F2;
-    height: 40px;
-
-}
-
-h1{
-    height: 40px;
+    height: 50px;
+    padding-top: 10px;
+    font-size: large;
 }
 
 
@@ -26,10 +25,15 @@ h1{
 }
 
 #navbar_item{
-    color: #f0faf7
+    color: #f0faf7;
+    margin: 10px;
 }
+
+/* The main body is divided into two parts: Upperbody and lower body */
+/* formatting */
 main{
-    background-color: #f0faf7;   
+    background-color: #f0faf7; 
+    padding:10px;
 }
 .upperbody{
     margin-right: 100px;
@@ -39,25 +43,30 @@ main{
     margin-right: 100px;
     margin-left: 100px;
 }
-
+/* Content Edits (upperbody)*/
 .aboutme{
     background-color: whitesmoke;
     padding:10px;
 }
 
-.collegename{
-    color: black;
+/* Content Edits (lowerbody)*/
+.highlight{
+    border-color: #2C3333;
 }
 
-.highlight{
-    background-color:#2C3333
-}
+/* link formatting */
 a{
-    color: #E7F6F2;
+    color: purple;
 }
+  /* selected link */
+a:active {
+    color: black;
+    font-size: small;
+    text-decoration: none;
+  }
+
 #highlight_list{
-    background-color: #3d5b63;
-    color: #E7F6F2; 
+    color: #2C3333; 
     padding: 5px; 
 }
 
