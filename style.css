@@ -9,7 +9,7 @@
 
 .header{ 
     text-align: center;
-    background-color:#2C3333;
+    background-color: #2C3333;
     color: #E7F6F2;
     height: 50px;
     padding-top: 10px;
@@ -55,8 +55,10 @@ li a.active{
 
 /* The main body is divided into two parts: Upperbody and lower body */
 /* formatting */
+body{
+    background-color: #f0faf7;
+}
 main{
-    background-color: #f0faf7; 
     padding:10px;
     font-size: small;
 }
@@ -94,6 +96,21 @@ a:active {
     text-decoration: none;
   }
 
+#year{
+    display: inline;
+}
+#vl{
+    height: 40px; /* Adjust the height of the line */
+    width: 1px; /* Adjust the width of the line */
+    background-color: black;
+    margin-left: 20px; 
+    display: inline;/* Adjust the position of the line */
+    }
+
+#content{
+    display: inline;
+}
+
 #highlight_list{
     color: #2C3333; 
     padding: 5px; 
@@ -110,6 +127,7 @@ footer{
     padding: 5px;
     color: #E7F6F2;
 }
+
 
 
 
