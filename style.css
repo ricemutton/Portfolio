@@ -9,11 +9,12 @@
 
 .header{ 
     text-align: center;
-    background-color: #2C3333;
-    color: #E7F6F2;
+    color: #3d5b63;
     height: 50px;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: large;
+    background-color: #2C3333;
+    position: static;
 }
 
 ul {
@@ -26,7 +27,6 @@ li{
 
 li a {
     color: #2C3333;
-    text-align: center;
     text-decoration: none;
 }
 span{
@@ -45,7 +45,10 @@ li a.active{
     background-color:#3d5b63;
     text-align: center;
     font-family: 'Georgia';
-    padding-top: 10px;
+    padding-top: 5px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
 }
 
 #navbar_item{
@@ -57,35 +60,33 @@ li a.active{
 /* formatting */
 body{
     background-color: #f0faf7;
+
 }
 main{
     padding:10px;
-    font-size: small;
-}
-.aboutme{
-    text-align: center;
+    font-size: 14px;
 }
 
-.headingline{
-    display: inline;
-}
 .bodycontent{
     text-align: justify;
-    width: 400px;
+    width: 50vw;
     margin: auto;
 }
-
-/* Content Edits (upperbody)*/
-.aboutme{
-    background-color: whitesmoke;
-    padding:10px;
+@media (max-width: 500px){
+    .bodycontent{
+        width: 60vw;
+    }
 }
-
-/* Content Edits (lowerbody)*/
-.highlight{
-    border-color: #2C3333;
+@media (max-width: 400px){
+    .bodycontent{
+        width: 70vw;
+    }
 }
-
+@media (max-width: 300px){
+    .bodycontent{
+        width: fit-content;
+    }
+}
 /* link formatting */
 a{
     color: purple;
@@ -94,21 +95,27 @@ a{
 a:active {
     color: black;
     text-decoration: none;
-  }
-
-#year{
-    display: inline;
 }
-#vl{
-    height: 40px; /* Adjust the height of the line */
-    width: 1px; /* Adjust the width of the line */
-    background-color: black;
-    margin-left: 20px; 
-    display: inline;/* Adjust the position of the line */
-    }
+#cvtitle{
+    border-bottom: black;
+    border-radius: 1.5px;
+}
+#cvsection{
+    display: flex;
+    align-items: flex-start;
+    font-size: 12px;
+}
+#year{
+    width: 90px;
+    height: 100%;
+    flex-shrink: 0;
+}
 
 #content{
-    display: inline;
+    display: inline-block;
+    padding-left: 10px;
+    border-left: solid black;
+    border-width: 1.5px;
 }
 
 #highlight_list{
@@ -116,16 +123,12 @@ a:active {
     padding: 5px; 
 }
 
-#year{
-    padding:5px;
-}
 footer{
     text-align: center;
     font-size: smaller;
-    background-color: #2C3333;
-    opacity: 0.7;
     padding: 5px;
-    color: #E7F6F2;
+    background-image: url("readingbelow.jpg");
+    background-size: cover;
 }
 
 
