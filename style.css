@@ -129,6 +129,7 @@ footer{
     padding: 5px;
     background-image: url("readingbelow.jpg");
     background-size: cover;
+    display: fixed;
 }
 
 
