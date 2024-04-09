@@ -5,6 +5,7 @@
 /* for white links */
 #exception_links{
     color: #f0faf7;
+    font-size: 18px;
 }
 
 .header{ 
@@ -12,8 +13,7 @@
     color: #3d5b63;
     height: 50px;
     padding-top: 20px;
-    font-size: large;
-    background-color: #2C3333;
+    background-color: black;
     position: static;
 }
 
@@ -35,7 +35,7 @@ span{
     padding: 10px;
     border-radius: 5%;
     text-decoration: none;
-    
+    font-size: 14px;
 }
 
 li a.active{
@@ -71,6 +71,7 @@ main{
     text-align: justify;
     width: 50vw;
     margin: auto;
+    font-size: 12px;
 }
 @media (max-width: 500px){
     .bodycontent{
@@ -125,14 +126,19 @@ a:active {
 
 footer{
     text-align: center;
-    font-size: smaller;
-    padding: 5px;
-    background-image: url("readingbelow.jpg");
-    background-size: cover;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+
 }
-
-
-
+.enddiv{
+    background-color: #3d5b63;
+    text-align: center;
+    color: #f0faf7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 9px;
+}
 
 
 
