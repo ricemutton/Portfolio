@@ -5,16 +5,18 @@
 /* for white links */
 #exception_links{
     color: #f0faf7;
-    font-size: 18px;
+    font-size: 26px;
+    font-variant: small-caps;
 }
 
 .header{ 
     text-align: center;
     color: #3d5b63;
     height: 50px;
-    padding-top: 20px;
+    padding-top: 26px;
     background-color: black;
     position: static;
+    font-variant: small-caps;
 }
 
 ul {
@@ -30,12 +32,13 @@ li a {
     text-decoration: none;
 }
 span{
-    background-color: #f0faf7;
+    background-color: white;
     color: black;
     padding: 8px;
     border-radius: 5%;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
+    font-variant: small-caps;
 }
 
 li a.active{
@@ -45,7 +48,7 @@ li a.active{
     background-color: black;
     opacity: 0.8;
     text-align: center;
-    font-family: 'Georgia';
+    font-family: Optima, sans-serif;
     padding-top: 5px;
     display:flex;
     justify-content: center;
@@ -53,26 +56,27 @@ li a.active{
 }
 
 #navbar_item{
-    color: #f0faf7;
+    color:white;
     margin: 10px;
 }
 
 /* The main body is divided into two parts: Upperbody and lower body */
 /* formatting */
 body{
-    background-color: #f0faf7;
+    background-color: white;
 
 }
 main{
     padding:10px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .bodycontent{
     text-align: justify;
     width: 50vw;
     margin: auto;
-    font-size: 12px;
+    font-size: 16px;
+    font-family: Optima, sans-serif;
 }
 @media (max-width: 500px){
     .bodycontent{
@@ -123,16 +127,16 @@ a:active {
 #highlight_list{
     color: #2C3333; 
     padding: 5px; 
+    font-variant: small-caps;
 }
 
 footer{
     text-align: center;
     font-size: 9px;
     padding: 5px;
-    color: #f0faf7;
+    color: white;
     background-color: black;
     opacity: 0.8;
-    position: fixed;
     bottom: 0px;
     width: 100vw;
 }
