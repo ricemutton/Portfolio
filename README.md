@@ -1,3 +1,2 @@
-I tried making a portfolio website using HTML and CSS from scratch. 
-Given is all the code of the website. 
-The site is https://ricemutton.github.io/portfolio/
+index.html contains About me, Current Projects, Highlights, and Study Resources
+You can also access my CV too. 
