@@ -11,30 +11,31 @@
 
 .header{ 
     text-align: center;
-    color: #3d5b63;
+    color: #FFC0CB;
     height: 50px;
     padding-top: 26px;
-    background-color: black;
+    background-color: #FF4162;
     position: static;
     font-variant: small-caps;
 }
 
+/*for the content in navigation bar*/
 ul {
     list-style-type: none;
 }
 
-li{
-    display: inline;
-}
 
 li a {
     color: #2C3333;
     text-decoration: none;
 }
 span{
-    background-color: white;
+    background-color: #FFFFF7;
     color: black;
-    padding: 8px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-radius: 5%;
     text-decoration: none;
     font-size: 16px;
@@ -45,50 +46,46 @@ li a.active{
     background-color: #f0faf7;
 }
 .navigation_bar{
-    background-color: black;
-    opacity: 0.8;
+    background-color: #FF4162;
     text-align: center;
     font-family: Optima, sans-serif;
     padding-top: 5px;
     display:flex;
     justify-content: center;
     align-content: center;
+    
 }
 
 #navbar_item{
     color:white;
-    margin: 10px;
+    margin: 30px;
 }
 
 /* The main body is divided into two parts: Upperbody and lower body */
 /* formatting */
 body{
-    background-color: white;
+    background-color: #FFFFF7 ;
 
 }
 main{
     padding:10px;
     font-size: 18px;
+    width: 80vw;
+    margin: auto;
+    border-style:ridge;
+    background-color:#FFD5C0;
 }
 
 .bodycontent{
     text-align: justify;
-    width: 50vw;
     margin: auto;
     font-size: 16px;
     font-family: Optima, sans-serif;
+    padding-left: 10pt;
+    padding-right: 10pt;
 }
+
 @media (max-width: 500px){
-    .bodycontent{
-        width: 60vw;
-    }
-}
-@media (max-width: 400px){
-    .bodycontent{
-        width: 70vw;
-    }
-}
-@media (max-width: 300px){
     .bodycontent{
         width: fit-content;
     }
@@ -115,6 +112,7 @@ a:active {
     width: 90px;
     height: 100%;
     flex-shrink: 0;
+    padding-top: 10pt;
 }
 
 #content{
@@ -132,13 +130,13 @@ a:active {
 
 footer{
     text-align: center;
-    font-size: 9px;
+    font-size: 12px;
     padding: 5px;
     color: white;
     background-color: black;
     opacity: 0.8;
-    bottom: 0px;
     width: 100vw;
+
 }
 
 
