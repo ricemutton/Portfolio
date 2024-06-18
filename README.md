@@ -1,2 +1,2 @@
-I tried making a portfolio website using HTML and CSS from scratch. 
-Given is all the code and images used in the website. 
+index.html contains About me, Current Projects, Highlights, and Study Resources
+You can also access my CV too. 
